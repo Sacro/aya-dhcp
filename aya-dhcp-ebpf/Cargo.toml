@@ -7,6 +7,7 @@ edition = "2021"
 aya-bpf = { git = "https://github.com/aya-rs/aya" }
 aya-log-ebpf = { git = "https://github.com/aya-rs/aya" }
 aya-dhcp-common = { path = "../aya-dhcp-common" }
+network-types = "0.0.4"
 
 [[bin]]
 name = "aya-dhcp"
